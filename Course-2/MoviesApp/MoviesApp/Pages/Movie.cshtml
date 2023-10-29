@@ -1,62 +1,19 @@
-﻿@page
-@model MoviesApp.Pages.MoviesModel
+﻿@page "{id}"
+@model MoviesApp.Pages.MovieModel
 @{
-    ViewData["Title"] = "List of all movies";
+    ViewData["Title"] = "Movie details";
 }
-
 <h3>@ViewData["Title"]</h3>
 <hr />
 
-<table class="table table-striped">
-    <thead>
-        <tr>
-            <th scope="col">#</th>
-            <th scope="col">Title</th>
-            <th scope="col">Rate</th>
-            <th scope="col">Actions</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <th scope="row">1</th>
-            <td>Mark is example movie title</td>
-            <td>9/10</td>
-            <td><a href="/Movie/6" class="btn btn-secondary">Show details</a></td>
-        </tr>
-        <tr>
-            <th scope="row">2</th>
-            <td>Jacob is a movie title</td>
-            <td>10/10</td>
-            <td><a href="/Movie/6" class="btn btn-secondary">Show details</a></td>
-        </tr>
-        <tr>
-            <th scope="row">3</th>
-            <td>Ervis is a movie title</td>
-            <td>10/10</td>
-            <td><a href="/Movie/6" class="btn btn-secondary">Show details</a></td>
-        </tr>
-        <tr>
-            <th scope="row">4</th>
-            <td>Jimmy is a movie title</td>
-            <td>10/10</td>
-            <td><a href="/Movie/6" class="btn btn-secondary">Show details</a></td>
-        </tr>
-        <tr>
-            <th scope="row">5</th>
-            <td>Jonny is a movie title</td>
-            <td>10/10</td>
-            <td><a href="/Movie/6" class="btn btn-secondary">Show details</a></td>
-        </tr>
-        <tr>
-            <th scope="row">6</th>
-            <td>Space is a movie title</td>
-            <td>10/10</td>
-            <td><a href="/Movie/6" class="btn btn-secondary">Show details</a></td>
-        </tr>
-
-    </tbody>
-</table>
-
-<div style="position: fixed; bottom: 70px;right:25px;">
-    <a href="/AddMovie" class="btn btn-success">Add new</a>
+<div class="card">
+    <div class="card-header">
+        Movie
+    </div>
+    <div class="card-body">
+        <h5 class="card-title">Special title treatment</h5>
+        <p class="card-text">8/10</p>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <a href="/Movies" class="btn btn-primary">Show all</a>
+    </div>
 </div>
