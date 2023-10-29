@@ -1,10 +1,13 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using MoviesApp.Data;
 using MoviesApp.Data.Models;
+using MoviesApp.Services;
 
 namespace MoviesApp.Pages
 {
+    [Authorize(Roles ="Manager")]
     public class AddMovieModel : PageModel
     {
         [BindProperty]
@@ -16,14 +19,12 @@ namespace MoviesApp.Pages
         [BindProperty]
         public string Description { get; set; }
 
-        private ApplicationDbContext _context;
+        private IMoviesService _service;
 
-        public AddMovieModel(ApplicationDbContext context)
+        public AddMovieModel(IMoviesService service)
         {
-            _context = context;
+            _service = service;
         }
-
-       
 
         public void OnGet()
         {
@@ -44,8 +45,7 @@ namespace MoviesApp.Pages
                 Rate = Rate,
                 Description = Description
             };
-            _context.Movies.Add(movie);
-            _context.SaveChanges();
+            _service.Add(movie);
 
             //return Page();
             return Redirect("Movies");
