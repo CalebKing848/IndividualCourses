@@ -16,6 +16,13 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
         options.AccessDeniedPath = "/Denied";
     });
 
+builder.Services.AddAuthorization(options =>
+{
+    options.AddPolicy("GraduatedOnly", policy => policy.RequireClaim("GraduationYear", "2010", "2012", "2015"));
+});
+
+
+
 builder.Services.AddScoped<IMoviesService, MoviesService>();
 
 
