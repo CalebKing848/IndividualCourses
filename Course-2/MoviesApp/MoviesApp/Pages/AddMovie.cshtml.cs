@@ -7,6 +7,7 @@ using MoviesApp.Services;
 
 namespace MoviesApp.Pages
 {
+    [Authorize(Roles ="Admin,Admin1, Admin2")]
     [Authorize(Roles ="Manager")]
     public class AddMovieModel : PageModel
     {
