@@ -16,12 +16,24 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Caleb King\source\repos\CalebKing848\IndividualProject\Course-2\MoviesApp\MoviesApp
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Caleb King/source/repos/CalebKing848/IndividualProject/Course-2/MoviesApp/MoviesApp/Pages/AddMovie.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkTW92aWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Caleb King/source/repos/CalebKing848/IndividualProject/Course-2/MoviesApp/MoviesApp/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Caleb King/source/repos/CalebKing848/IndividualProject/Course-2/MoviesApp/MoviesApp/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Caleb King/source/repos/CalebKing848/IndividualProject/Course-2/MoviesApp/MoviesApp/Pages/Movie.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTW92aWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Caleb King/source/repos/CalebKing848/IndividualProject/Course-2/MoviesApp/MoviesApp/Pages/Movies.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTW92aWVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Caleb King/source/repos/CalebKing848/IndividualProject/Course-2/MoviesApp/MoviesApp/Pages/Privacy.cshtml]
