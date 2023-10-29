@@ -33,7 +33,6 @@ namespace MoviesApp.Pages
         public IActionResult OnPost()
         {
           
-
             if (!ModelState.IsValid)
             {
                 return Page();
