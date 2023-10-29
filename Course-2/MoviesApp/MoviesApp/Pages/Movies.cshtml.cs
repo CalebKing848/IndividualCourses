@@ -17,22 +17,22 @@ namespace MoviesApp.Pages
                     Id = 1,
                     Title = "First movie title",
                     Rate = 10,
-                    Description ="First movie description goes here.. "
+                    Description ="First movie description goes here... "
                 }, new Movie(){
                     Id = 2,
                     Title = "Second movie title",
                     Rate = 7,
-                    Description ="Second movie description goes here.. "
+                    Description ="Second movie description goes here... "
                 }, new Movie(){
                     Id = 3,
                     Title = "Third movie title",
                     Rate = 5,
-                    Description ="Third movie description goes here.. "
+                    Description ="Third movie description goes here... "
                 }, new Movie(){
                     Id = 4,
                     Title = "Forth movie title",
                     Rate = 10,
-                    Description ="Forth movie description goes here.. "
+                    Description ="Forth movie description goes here... "
                 }
             };
 
