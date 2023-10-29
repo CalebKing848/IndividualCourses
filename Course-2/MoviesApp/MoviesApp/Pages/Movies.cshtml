@@ -21,10 +21,10 @@
         @foreach(var _movie in Model.Movies)
         {
             <tr>
-                <th scope="row">1</th>
-                <td>Mark is example movie title</td>
-                <td>9/10</td>
-                <td><a href="/Movie/6" class="btn btn-secondary">Show details</a></td>
+                <th scope="row">@_movie.Id</th>
+                <td>@_movie.Title</td>
+                <td>@_movie.Rate</td>
+                <td><a href="/Movie/@_movie.Id" class="btn btn-secondary">Show details</a></td>
             </tr>
         }
 
