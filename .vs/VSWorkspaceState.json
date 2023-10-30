@@ -4,8 +4,8 @@
     "\\Course-1",
     "\\Razor-Pages",
     "\\Unit-Testing",
-    "\\Unit-Testing\\Library.API"
+    "\\Unit-Testing\\LibraryApp"
   ],
-  "SelectedNode": "\\Unit-Testing\\Library.API\\LibraryApp.sln",
+  "SelectedNode": "\\Unit-Testing\\LibraryApp\\LibraryApp.sln",
   "PreviewInSolutionExplorer": false
 }
