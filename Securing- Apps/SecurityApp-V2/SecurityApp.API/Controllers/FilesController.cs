@@ -9,8 +9,17 @@ namespace SecurityApp.API.Controllers
     public class FilesController : ControllerBase
     {
         [HttpPost]
-        public async Task<IActionResult> Upload(IFormFile file)
+        //[Authorize]
+        public async Task<IActionResult> Upload([FileExtensions(Extensions =".pdf,.txt")][MaxLength(10*1024)]IFormFile file)
         {
+            // Check File Extention
+            //var extensions = Path.GetExtension(file.FileName);
+            //if (extensions != ".pdf") return BadRequest("Only .pdf files are allowed");
+
+            // Check File Size
+            //if(file.Length > 10 * 1024) return BadRequest($"File is larger than 10kb");
+
+            // Genrate a Random Name
 
             // Save the uploaded file to a temporary location
             var path = Path.GetTempFileName();
