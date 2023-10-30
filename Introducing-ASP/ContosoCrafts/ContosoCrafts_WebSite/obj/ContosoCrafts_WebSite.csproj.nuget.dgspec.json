@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Caleb King\\source\\repos\\CalebKing848\\IndividualProject\\Introducing-ASP\\ContosoCrafts\\ContosoCrafts_WebSite\\ContosoCrafts_WebSite.csproj": {}
+    "C:\\Users\\Caleb King\\Source\\Repos\\CalebKing848\\IndividualProject\\Introducing-ASP\\ContosoCrafts\\ContosoCrafts_WebSite\\ContosoCrafts_WebSite.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Caleb King\\source\\repos\\CalebKing848\\IndividualProject\\Introducing-ASP\\ContosoCrafts\\ContosoCrafts_WebSite\\ContosoCrafts_WebSite.csproj": {
+    "C:\\Users\\Caleb King\\Source\\Repos\\CalebKing848\\IndividualProject\\Introducing-ASP\\ContosoCrafts\\ContosoCrafts_WebSite\\ContosoCrafts_WebSite.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Caleb King\\source\\repos\\CalebKing848\\IndividualProject\\Introducing-ASP\\ContosoCrafts\\ContosoCrafts_WebSite\\ContosoCrafts_WebSite.csproj",
+        "projectUniqueName": "C:\\Users\\Caleb King\\Source\\Repos\\CalebKing848\\IndividualProject\\Introducing-ASP\\ContosoCrafts\\ContosoCrafts_WebSite\\ContosoCrafts_WebSite.csproj",
         "projectName": "ContosoCrafts_WebSite",
-        "projectPath": "C:\\Users\\Caleb King\\source\\repos\\CalebKing848\\IndividualProject\\Introducing-ASP\\ContosoCrafts\\ContosoCrafts_WebSite\\ContosoCrafts_WebSite.csproj",
+        "projectPath": "C:\\Users\\Caleb King\\Source\\Repos\\CalebKing848\\IndividualProject\\Introducing-ASP\\ContosoCrafts\\ContosoCrafts_WebSite\\ContosoCrafts_WebSite.csproj",
         "packagesPath": "C:\\Users\\Caleb King\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Caleb King\\source\\repos\\CalebKing848\\IndividualProject\\Introducing-ASP\\ContosoCrafts\\ContosoCrafts_WebSite\\obj\\",
+        "outputPath": "C:\\Users\\Caleb King\\Source\\Repos\\CalebKing848\\IndividualProject\\Introducing-ASP\\ContosoCrafts\\ContosoCrafts_WebSite\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Caleb King\\AppData\\Roaming\\NuGet\\NuGet.Config",
