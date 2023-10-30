@@ -5,10 +5,8 @@
     "\\Course-4",
     "\\Course-5",
     "\\Securing- Apps",
-    "\\Securing- Apps\\SecurityApp",
-    "\\Securing- Apps\\SecurityApp\\SecurityApp.API",
-    "\\Securing- Apps\\SecurityApp\\SecurityApp.API\\Controllers"
+    "\\Securing- Apps\\SecurityApp-V1"
   ],
-  "SelectedNode": "\\Securing- Apps\\SecurityApp\\SecurityApp.API\\Controllers\\UsersController.cs",
+  "SelectedNode": "\\Securing- Apps\\SecurityApp-V1\\SecurityApp.sln",
   "PreviewInSolutionExplorer": false
 }

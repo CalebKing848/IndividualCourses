@@ -924,11 +924,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Caleb King\\Source\\Repos\\CalebKing848\\IndividualProject\\Securing- Apps\\SecurityApp\\SecurityApp.API\\SecurityApp.API.csproj",
+      "projectUniqueName": "C:\\Users\\Caleb King\\Source\\Repos\\CalebKing848\\IndividualProject\\Securing- Apps\\SecurityApp-V1\\SecurityApp.API\\SecurityApp.API.csproj",
       "projectName": "SecurityApp.API",
-      "projectPath": "C:\\Users\\Caleb King\\Source\\Repos\\CalebKing848\\IndividualProject\\Securing- Apps\\SecurityApp\\SecurityApp.API\\SecurityApp.API.csproj",
+      "projectPath": "C:\\Users\\Caleb King\\Source\\Repos\\CalebKing848\\IndividualProject\\Securing- Apps\\SecurityApp-V1\\SecurityApp.API\\SecurityApp.API.csproj",
       "packagesPath": "C:\\Users\\Caleb King\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Caleb King\\Source\\Repos\\CalebKing848\\IndividualProject\\Securing- Apps\\SecurityApp\\SecurityApp.API\\obj\\",
+      "outputPath": "C:\\Users\\Caleb King\\Source\\Repos\\CalebKing848\\IndividualProject\\Securing- Apps\\SecurityApp-V1\\SecurityApp.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Caleb King\\AppData\\Roaming\\NuGet\\NuGet.Config",

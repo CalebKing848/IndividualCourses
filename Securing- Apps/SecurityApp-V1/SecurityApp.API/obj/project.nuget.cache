@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "C/pC5DQ3Z5F8vwwwH9wxQImZbkfcJDmgmSbjiGpRJfNvcF3C4BtdiuOHZEnvGFp2wm11MIbcppstKQY/DlwSMQ==",
+  "dgSpecHash": "S3DpxomqC7iRgO9YUHHG7nKWvrGxGhKgGhxQqDtdU05rkKSnHVNKuPBhIj5/v1Rhl7WbNq3EUBk67+1sRThCwg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Caleb King\\Source\\Repos\\CalebKing848\\IndividualProject\\Securing- Apps\\SecurityApp\\SecurityApp.API\\SecurityApp.API.csproj",
+  "projectFilePath": "C:\\Users\\Caleb King\\Source\\Repos\\CalebKing848\\IndividualProject\\Securing- Apps\\SecurityApp-V1\\SecurityApp.API\\SecurityApp.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Caleb King\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.1\\microsoft.aspnetcore.openapi.7.0.1.nupkg.sha512",
     "C:\\Users\\Caleb King\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
