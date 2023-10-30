@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\ContosoCrafts_WebSite.props" />
-</Project>

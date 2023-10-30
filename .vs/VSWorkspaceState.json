@@ -2,7 +2,12 @@
   "ExpandedNodes": [
     "",
     "\\Course-1",
-    "\\Course-4"
+    "\\Course-4",
+    "\\Introducing-ASP",
+    "\\Introducing-ASP\\ContosoCrafts",
+    "\\Introducing-ASP\\ContosoCrafts\\ContosoCrafts_WebSite",
+    "\\Introducing-ASP\\ContosoCrafts\\ContosoCrafts_WebSite\\Pages"
   ],
+  "SelectedNode": "\\Introducing-ASP\\ContosoCrafts\\ContosoCrafts_WebSite\\Pages\\Index.cshtml",
   "PreviewInSolutionExplorer": false
 }
