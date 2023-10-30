@@ -98,6 +98,28 @@ namespace LibaryAPI.Test
 
         }
 
+        [Theory]
+        [InlineData("ab2bd817-98cd-4cf3-a80a-53ea0cd9c200", "ab2bd817-98cd-4cf3-a80a-53ea0cd9c111")]
+        public void RemoveBookByIdTest(string guid1, string guid2)
+        {
+            //arrange
+            var validGuid = new Guid(guid1);
+            var invalidGuid = new Guid(guid2);
+
+            //act
+            var notFoundResult = _controller.Remove(invalidGuid);
+            //assert
+            Assert.IsType<NotFoundResult>(notFoundResult);
+            Assert.Equal(5, _service.GetAll().Count());
+
+            //act
+            var okResult = _controller.Remove(validGuid);
+            //assert
+            Assert.IsType<OkResult>(okResult);
+            Assert.Equal(4, _service.GetAll().Count());
+
+        }
+
 
     }
 }
