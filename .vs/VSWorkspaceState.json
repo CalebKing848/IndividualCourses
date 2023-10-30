@@ -4,8 +4,9 @@
     "\\Course-1",
     "\\Razor-Pages",
     "\\Unit-Testing",
-    "\\Unit-Testing\\LibraryApp"
+    "\\Unit-Testing\\LibraryApp",
+    "\\Unit-Testing\\LibraryApp\\LibraryApp.Test"
   ],
-  "SelectedNode": "\\Unit-Testing\\LibraryApp\\LibraryApp.sln",
+  "SelectedNode": "\\Unit-Testing\\LibraryApp\\LibraryApp.Test\\BookControllerTest.cs",
   "PreviewInSolutionExplorer": false
 }

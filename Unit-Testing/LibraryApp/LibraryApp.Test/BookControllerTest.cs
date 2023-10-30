@@ -59,5 +59,45 @@ namespace LibraryApp.Test
 
         }
 
+        [Fact]
+        public void CreateTest()
+        {
+            //arrange
+            var mockRepo = new Mock<IBookService>();
+            var controller = new BooksController(mockRepo.Object);
+            var newValidItem = new Book()
+            {
+                Author = "Author",
+                Title = "Title",
+                Description = "Description"
+            };
+
+            //act
+            var result = controller.Create(newValidItem);
+
+            //assert
+            var redirectToActionResult = Assert.IsType<RedirectToActionResult>(result);
+            Assert.Equal("Index", redirectToActionResult.ActionName);
+            Assert.Null(redirectToActionResult.ControllerName);
+
+            //arrage
+            var newInvalidItem = new Book()
+            {
+                Title = "Title",
+                Description = "Description"
+            };
+            controller.ModelState.AddModelError("Author", "The Author value is required");
+
+            //act
+            var resultInvalid = controller.Create(newInvalidItem);
+
+            //assert
+            var badRequestResult = Assert.IsType<BadRequestObjectResult>(resultInvalid);
+            Assert.IsType<SerializableError>(badRequestResult.Value);
+        }
+
+
+        []
+
     }
 }
