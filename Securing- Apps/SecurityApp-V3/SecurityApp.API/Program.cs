@@ -17,7 +17,8 @@ builder.Services.Configure<IdentityOptions>(options =>
     options.Lockout.MaxFailedAccessAttempts = 5;
 });
 
-
+// Add CORS
+builder.Services.AddCors();
 
 var app = builder.Build();
 
@@ -27,6 +28,13 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+//User Cors
+app.UseCors(options => 
+                options.WithOrigins("https://example.com")
+                .AllowAnyHeader()
+                .AllowAnyMethod()
+);
 
 app.UseHttpsRedirection();
 
