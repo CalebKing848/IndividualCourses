@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "aEl9pXHclpjwdpSy6MiCQiMDuI+RPLB4zyKMZErwGcKXGuSsZaiqsrDKSm0XNJhFJFaaM72c+1UJLoMLyo+fZg==",
+  "dgSpecHash": "oM7i/XUiv+6ClmOjVuSYsee9PxOioViEM3AUVmRjUupV/DH6tzcncypuXc6n0qSz4A2XXFAPjxG37Zzn0+grzw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Caleb King\\source\\repos\\CalebKing848\\IndividualProject\\Securing- Apps\\SecurityApp.MVC\\SecurityApp.MVC\\SecurityApp.MVC.csproj",
   "expectedPackageFiles": [
@@ -56,6 +56,7 @@
     "C:\\Users\\Caleb King\\.nuget\\packages\\humanizer.core.zh-cn\\2.14.1\\humanizer.core.zh-cn.2.14.1.nupkg.sha512",
     "C:\\Users\\Caleb King\\.nuget\\packages\\humanizer.core.zh-hans\\2.14.1\\humanizer.core.zh-hans.2.14.1.nupkg.sha512",
     "C:\\Users\\Caleb King\\.nuget\\packages\\humanizer.core.zh-hant\\2.14.1\\humanizer.core.zh-hant.2.14.1.nupkg.sha512",
+    "C:\\Users\\Caleb King\\.nuget\\packages\\microsoft.aspnetcore.authentication.google\\7.0.13\\microsoft.aspnetcore.authentication.google.7.0.13.nupkg.sha512",
     "C:\\Users\\Caleb King\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\7.0.13\\microsoft.aspnetcore.cryptography.internal.7.0.13.nupkg.sha512",
     "C:\\Users\\Caleb King\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\7.0.13\\microsoft.aspnetcore.cryptography.keyderivation.7.0.13.nupkg.sha512",
     "C:\\Users\\Caleb King\\.nuget\\packages\\microsoft.aspnetcore.diagnostics.entityframeworkcore\\7.0.13\\microsoft.aspnetcore.diagnostics.entityframeworkcore.7.0.13.nupkg.sha512",
