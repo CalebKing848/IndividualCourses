@@ -29,5 +29,12 @@ namespace ExploreCalifornia.Controllers
             
             return View(post);
         }
+    
+        [Route("create")]
+        public IActionResult Create()
+        {
+            return View();
+        }
+    
     }
 }

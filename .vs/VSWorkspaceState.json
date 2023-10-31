@@ -3,8 +3,10 @@
     "",
     "\\Learning MVC",
     "\\Learning MVC\\ExploreCalifornia",
-    "\\Learning MVC\\ExploreCalifornia\\ExploreCalifornia"
+    "\\Learning MVC\\ExploreCalifornia\\ExploreCalifornia",
+    "\\Learning MVC\\ExploreCalifornia\\ExploreCalifornia\\Views",
+    "\\Learning MVC\\ExploreCalifornia\\ExploreCalifornia\\Views\\Blog"
   ],
-  "SelectedNode": "\\Learning MVC\\ExploreCalifornia\\ExploreCalifornia\\Startup.cs",
+  "SelectedNode": "\\Learning MVC\\ExploreCalifornia\\ExploreCalifornia\\Views\\Blog\\Post.cshtml",
   "PreviewInSolutionExplorer": false
 }
