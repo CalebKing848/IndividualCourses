@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Learning MVC",
+    "\\Learning MVC\\ExploreCalifornia",
+    "\\Learning MVC\\ExploreCalifornia\\ExploreCalifornia"
   ],
+  "SelectedNode": "\\Learning MVC\\ExploreCalifornia\\ExploreCalifornia\\Startup.cs",
   "PreviewInSolutionExplorer": false
 }
