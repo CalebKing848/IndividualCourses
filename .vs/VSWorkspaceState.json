@@ -4,8 +4,9 @@
     "\\Learning MVC",
     "\\Learning MVC\\ExploreCalifornia",
     "\\Learning MVC\\ExploreCalifornia\\ExploreCalifornia",
-    "\\Learning MVC\\ExploreCalifornia\\ExploreCalifornia\\Controllers"
+    "\\Learning MVC\\ExploreCalifornia\\ExploreCalifornia\\Views",
+    "\\Learning MVC\\ExploreCalifornia\\ExploreCalifornia\\Views\\Blog"
   ],
-  "SelectedNode": "\\Learning MVC\\ExploreCalifornia\\ExploreCalifornia\\Controllers\\BlogController.cs",
+  "SelectedNode": "\\Learning MVC\\ExploreCalifornia\\ExploreCalifornia\\Views\\Blog\\Index.cshtml",
   "PreviewInSolutionExplorer": false
 }
