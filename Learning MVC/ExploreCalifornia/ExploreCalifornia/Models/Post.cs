@@ -13,7 +13,7 @@ namespace ExploreCalifornia.Models
 
         public string _key;
 
-        public string key
+        public string Key
         {
             get
             {
