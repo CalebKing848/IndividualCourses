@@ -2,11 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\Securing-Apps",
-    "\\Securing-Apps\\SecurityApp1",
-    "\\Securing-Apps\\SecurityApp1\\SecurityApp.API",
-    "\\Securing-Apps\\SecurityApp1\\SecurityApp.API\\Controllers",
-    "\\Securing-Apps\\SecurityApp2"
+    "\\Securing-Apps\\SecurityApp",
+    "\\Securing-Apps\\SecurityApp\\SecurityApp.API",
+    "\\Securing-Apps\\SecurityApp\\SecurityApp.API\\Controllers"
   ],
-  "SelectedNode": "\\Securing-Apps\\SecurityApp1\\SecurityApp.API\\Controllers\\UsersController.cs",
   "PreviewInSolutionExplorer": false
 }
