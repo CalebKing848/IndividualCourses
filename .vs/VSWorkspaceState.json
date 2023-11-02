@@ -2,8 +2,6 @@
   "ExpandedNodes": [
     "",
     "\\Securing-Apps",
-    "\\Securing-Apps\\SecurityApp",
-    "\\Securing-Apps\\SecurityApp\\SecurityApp.API",
     "\\Securing-Apps\\SecurityApp\\SecurityApp.API\\Controllers"
   ],
   "PreviewInSolutionExplorer": false
