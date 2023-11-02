@@ -1,14 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Learning MVC",
-    "\\Learning MVC\\ExploreCalifornia\\ExploreCalifornia\\Controllers",
-    "\\Learning MVC\\ExploreCalifornia\\ExploreCalifornia\\Views",
-    "\\Learning MVC\\ExploreCalifornia\\ExploreCalifornia\\Views\\Account",
-    "\\Learning MVC\\ExploreCalifornia\\ExploreCalifornia\\Views\\Shared",
     "\\Securing-Apps",
-    "\\Securing-Apps\\SecurityApp"
+    "\\Securing-Apps\\SecurityApp1",
+    "\\Securing-Apps\\SecurityApp1\\SecurityApp.API",
+    "\\Securing-Apps\\SecurityApp1\\SecurityApp.API\\Controllers",
+    "\\Securing-Apps\\SecurityApp2"
   ],
-  "SelectedNode": "\\Securing-Apps\\SecurityApp\\SecurityApp.sln",
+  "SelectedNode": "\\Securing-Apps\\SecurityApp1\\SecurityApp.API\\Controllers\\UsersController.cs",
   "PreviewInSolutionExplorer": false
 }
