@@ -4,9 +4,12 @@
     "\\Learning MVC",
     "\\Learning MVC\\ExploreCalifornia",
     "\\Learning MVC\\ExploreCalifornia\\ExploreCalifornia",
+    "\\Learning MVC\\ExploreCalifornia\\ExploreCalifornia\\Controllers",
+    "\\Learning MVC\\ExploreCalifornia\\ExploreCalifornia\\Models",
     "\\Learning MVC\\ExploreCalifornia\\ExploreCalifornia\\Views",
-    "\\Learning MVC\\ExploreCalifornia\\ExploreCalifornia\\Views\\Blog"
+    "\\Learning MVC\\ExploreCalifornia\\ExploreCalifornia\\Views\\Account",
+    "\\Learning MVC\\ExploreCalifornia\\ExploreCalifornia\\Views\\Shared"
   ],
-  "SelectedNode": "\\Learning MVC\\ExploreCalifornia\\ExploreCalifornia.sln",
+  "SelectedNode": "\\Learning MVC\\ExploreCalifornia\\ExploreCalifornia\\Views\\Shared\\_Post.cshtml",
   "PreviewInSolutionExplorer": false
 }
