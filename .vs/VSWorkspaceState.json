@@ -2,7 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\Securing-Apps",
-    "\\Securing-Apps\\SecurityApp\\SecurityApp.API\\Controllers"
+    "\\Securing-Apps\\SecurityApp.MVC",
+    "\\Securing-Apps\\SecurityApp.MVC\\SecurityApp.MVC",
+    "\\Securing-Apps\\SecurityApp.MVC\\SecurityApp.MVC\\Services"
   ],
+  "SelectedNode": "\\Securing-Apps\\SecurityApp.MVC\\SecurityApp.MVC\\Services\\EmailSender.cs",
   "PreviewInSolutionExplorer": false
 }
