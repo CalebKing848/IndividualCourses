@@ -14,12 +14,12 @@ namespace SecurityApp.MVC.Services
 
             var msg = new SendGridMessage()
             {
-                From = new EmailAddress("calebking9876@gmail.com", "Ervis Trupja - Password Recovery"),
+                From = new EmailAddress("ervistrupja@gmail.com", "Ervis Trupja - Password Recovery"),
                 Subject = subject,
                 PlainTextContent = htmlMessage,
                 HtmlContent = htmlMessage
             };
-            W
+
             msg.AddTo(email);
 
             msg.SetClickTracking(false, false);

@@ -1,11 +1,14 @@
 {
   "ExpandedNodes": [
     "",
+    "\\Learning MVC",
+    "\\Learning MVC\\ExploreCalifornia",
     "\\Securing-Apps",
+    "\\Securing-Apps\\SecurityApp",
     "\\Securing-Apps\\SecurityApp.MVC",
     "\\Securing-Apps\\SecurityApp.MVC\\SecurityApp.MVC",
     "\\Securing-Apps\\SecurityApp.MVC\\SecurityApp.MVC\\Services"
   ],
-  "SelectedNode": "\\Securing-Apps\\SecurityApp.MVC\\SecurityApp.MVC\\Services\\EmailSender.cs",
+  "SelectedNode": "\\Securing-Apps\\SecurityApp.MVC\\SecurityApp.MVC.sln",
   "PreviewInSolutionExplorer": false
 }
