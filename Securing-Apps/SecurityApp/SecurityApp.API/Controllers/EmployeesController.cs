@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using SecurityApp.API.Models;
 
 namespace SecurityApp.API.Controllers
 {
@@ -7,6 +8,13 @@ namespace SecurityApp.API.Controllers
     [ApiController]
     public class EmployeesController : ControllerBase
     {
+        private readonly IAuthorizationService _authorizationService;
+
+        public EmployeesController(IAuthorizationService authorizationService)
+        {
+            _authorizationService = authorizationService;
+        }
+
         // GET: api/<EmployeesController>
         [HttpGet]
         [Authorize(Roles = "Admin")]
@@ -26,6 +34,7 @@ namespace SecurityApp.API.Controllers
 
         // POST api/<EmployeesController>
         [HttpPost]
+        [Authorize(Policy ="SuperAdminOnly")]
         public void Post([FromBody] string value)
         {
         }
@@ -38,8 +47,18 @@ namespace SecurityApp.API.Controllers
 
         // DELETE api/<EmployeesController>/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public async Task<IActionResult> Delete(int id)
         {
+            User userDb = new User();
+
+
+            var result = await _authorizationService.AuthorizeAsync(User, userDb, "HiringManager");
+
+            if(result.Succeeded)
+            {
+                return Ok("User removed sucessfully");
+            }
+            return Forbid("You can not remove the user, because you are not the hiring manager.");
         }
     }
 }
